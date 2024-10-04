@@ -23,7 +23,7 @@ def create_comparisson_workingday(df):
     return comparisson_workingday
 
 # Meload dataset kedalam variabel day_df
-day_df = pd.read_csv('day_cleaned.csv')
+day_df = pd.read_csv('dashboard/day_cleaned.csv')
 
 # Menyiapkan dataframe
 trend_bike = create_trend_bike(day_df)
